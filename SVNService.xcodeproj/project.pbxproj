@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2908027116BD9CC600B54025 /* SVNSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2908026E16BD9CC600B54025 /* SVNSettings.h */; };
+		2908027216BD9CC600B54025 /* SVNSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2908026F16BD9CC600B54025 /* SVNSettings.mm */; };
+		2908027316BD9CC600B54025 /* SVNSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2908027016BD9CC600B54025 /* SVNSettings.xib */; };
+		290DDA5416B867F8002273D5 /* SVNEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290DDA5316B867F8002273D5 /* SVNEditor.xib */; };
+		290FF3E31602706000CD5AD2 /* Icons.h in Headers */ = {isa = PBXBuildFile; fileRef = 290FF3E11602706000CD5AD2 /* Icons.h */; };
+		290FF3E41602706000CD5AD2 /* Icons.mm in Sources */ = {isa = PBXBuildFile; fileRef = 290FF3E21602706000CD5AD2 /* Icons.mm */; };
+		2917AA591611A0D2002303A1 /* SVNEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2917AA561611A0D2002303A1 /* SVNEditor.h */; };
+		2917AA5A1611A0D2002303A1 /* SVNEditor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2917AA571611A0D2002303A1 /* SVNEditor.mm */; };
+		2917AA5B1611A0D2002303A1 /* SVNEditorText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2917AA581611A0D2002303A1 /* SVNEditorText.xib */; };
+		2918D4E316124F2500EF3AD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2918D4E216124F2500EF3AD9 /* MainMenu.xib */; };
+		292090B916092518003E8078 /* SVNBlame.h in Headers */ = {isa = PBXBuildFile; fileRef = 292090B616092518003E8078 /* SVNBlame.h */; };
+		292090BA16092518003E8078 /* SVNBlame.mm in Sources */ = {isa = PBXBuildFile; fileRef = 292090B716092518003E8078 /* SVNBlame.mm */; };
+		292090BB16092518003E8078 /* SVNBlame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292090B816092518003E8078 /* SVNBlame.xib */; };
+		292BAEDD15E0A85A0039B448 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292BAEDC15E0A85A0039B448 /* Quartz.framework */; };
+		292CA36A16157BAD00A66F6C /* SVNAuthorise.h in Headers */ = {isa = PBXBuildFile; fileRef = 292CA36716157BAD00A66F6C /* SVNAuthorise.h */; };
+		292CA36B16157BAD00A66F6C /* SVNAuthorise.mm in Sources */ = {isa = PBXBuildFile; fileRef = 292CA36816157BAD00A66F6C /* SVNAuthorise.mm */; };
+		292CA36C16157BAD00A66F6C /* SVNAuthorise.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292CA36916157BAD00A66F6C /* SVNAuthorise.xib */; };
+		292FBFC115E02C0700989D00 /* libapr-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFC015E02C0700989D00 /* libapr-1.dylib */; };
+		292FBFC415E02C2700989D00 /* libsvn_client-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFC315E02C2700989D00 /* libsvn_client-1.dylib */; };
+		292FBFC615E0414900989D00 /* libsvn_wc-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFC515E0414900989D00 /* libsvn_wc-1.dylib */; };
+		292FBFD315E0419E00989D00 /* libsvn_diff-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFC715E0419E00989D00 /* libsvn_diff-1.dylib */; };
+		292FBFE115E0427D00989D00 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFDF15E0427D00989D00 /* libcrypto.dylib */; };
+		292FBFE215E0427D00989D00 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFE015E0427D00989D00 /* libssl.dylib */; };
+		292FBFE515E06B5E00989D00 /* libsvn_delta-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFE315E06B5E00989D00 /* libsvn_delta-1.dylib */; };
+		292FBFE615E06B5E00989D00 /* libsvn_subr-1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FBFE415E06B5E00989D00 /* libsvn_subr-1.dylib */; };
+		2941C71B16068EA100C32DFA /* date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2941C71916068EA100C32DFA /* date.cpp */; };
+		2941C71C16068EA100C32DFA /* date.h in Headers */ = {isa = PBXBuildFile; fileRef = 2941C71A16068EA100C32DFA /* date.h */; };
+		2959C66516ADD87D000A163E /* SVNImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2959C66216ADD87D000A163E /* SVNImport.h */; };
+		2959C66616ADD87D000A163E /* SVNImport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2959C66316ADD87D000A163E /* SVNImport.mm */; };
+		2959C66716ADD87D000A163E /* SVNImport.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2959C66416ADD87D000A163E /* SVNImport.xib */; };
+		2959C67616ADDADE000A163E /* ui.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2959C67516ADDADE000A163E /* ui.mm */; };
+		295C40D916C2E54F00C32917 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 295C40D816C2E54F00C32917 /* main.h */; };
+		295CAA98160DB9F200E3E785 /* SVNBrowse.h in Headers */ = {isa = PBXBuildFile; fileRef = 295CAA95160DB9F200E3E785 /* SVNBrowse.h */; };
+		295CAA99160DB9F200E3E785 /* SVNBrowse.mm in Sources */ = {isa = PBXBuildFile; fileRef = 295CAA96160DB9F200E3E785 /* SVNBrowse.mm */; };
+		295CAA9A160DB9F200E3E785 /* SVNBrowse.xib in Resources */ = {isa = PBXBuildFile; fileRef = 295CAA97160DB9F200E3E785 /* SVNBrowse.xib */; };
+		2976B51915E9BA8300BD20E9 /* SVNSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2976B51815E9BA8300BD20E9 /* SVNSelect.xib */; };
+		2982488C15E0787500B9C72B /* SVNProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2982488B15E0787500B9C72B /* SVNProgress.xib */; };
+		2982488F15E07ADB00B9C72B /* SVNProgress.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2982488E15E07ADB00B9C72B /* SVNProgress.mm */; };
+		2982489215E07F0E00B9C72B /* SVNwrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2982489115E07F0E00B9C72B /* SVNwrapper.mm */; };
+		29855C8115FE73BC00B474FB /* Added.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7915FE73BB00B474FB /* Added.icns */; };
+		29855C8215FE73BC00B474FB /* Checkmark.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7A15FE73BB00B474FB /* Checkmark.icns */; };
+		29855C8315FE73BC00B474FB /* Conflict.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7B15FE73BB00B474FB /* Conflict.icns */; };
+		29855C8415FE73BC00B474FB /* Deleted.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7C15FE73BB00B474FB /* Deleted.icns */; };
+		29855C8515FE73BC00B474FB /* Ignored.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7D15FE73BB00B474FB /* Ignored.icns */; };
+		29855C8615FE73BC00B474FB /* Minus.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7E15FE73BB00B474FB /* Minus.icns */; };
+		29855C8715FE73BC00B474FB /* Modified.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C7F15FE73BB00B474FB /* Modified.icns */; };
+		29855C8815FE73BC00B474FB /* Other.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29855C8015FE73BB00B474FB /* Other.icns */; };
+		2989119416B4982B00A513C0 /* SVNEditorImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2989119316B4982B00A513C0 /* SVNEditorImage.xib */; };
+		29BEC14B16B394F5002A07CC /* SVNCommit.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BEC14916B394F5002A07CC /* SVNCommit.h */; };
+		29BEC14C16B394F5002A07CC /* SVNCommit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29BEC14A16B394F5002A07CC /* SVNCommit.mm */; };
+		29CE7AC615F82B1D005B2CB5 /* SVNProperties.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7AC315F82B1D005B2CB5 /* SVNProperties.mm */; };
+		29CE7AC715F82B1D005B2CB5 /* SVNProperties.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7AC415F82B1D005B2CB5 /* SVNProperties.xib */; };
+		29CE7AD115F86DBA005B2CB5 /* SVNLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7ACE15F86DB9005B2CB5 /* SVNLog.mm */; };
+		29CE7AD215F86DBA005B2CB5 /* SVNLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29CE7ACF15F86DBA005B2CB5 /* SVNLog.xib */; };
+		29DA7B1616113BF600517782 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29DA7B1516113BF600517782 /* logo.icns */; };
+		29DA7B2C1613CE3900517782 /* SyntaxColouring.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29DA7B2B1613CE3900517782 /* SyntaxColouring.mm */; };
+		29F0DF1216B320ED00D37B3A /* SVNSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F0DF1116B320ED00D37B3A /* SVNSelect.h */; };
+		29F0DF1516B322F900D37B3A /* SVNSelect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29F0DF1316B320FE00D37B3A /* SVNSelect.mm */; };
+		29FBFAAE1610257700929F5B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 29FBFAAD1610257600929F5B /* icon.icns */; };
+		737215A1049A927B00C919A3 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 036354E7FEEE2D177F000001 /* main.mm */; settings = {ATTRIBUTES = (); }; };
+		737215A3049A927B00C919A3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036354F1FEEE2D177F000001 /* AppKit.framework */; };
+		737215A4049A927B00C919A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036354F2FEEE2D177F000001 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		29DA7B3D161541C400517782 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		036354E7FEEE2D177F000001 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		036354F1FEEE2D177F000001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		036354F2FEEE2D177F000001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2908026E16BD9CC600B54025 /* SVNSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNSettings.h; sourceTree = "<group>"; };
+		2908026F16BD9CC600B54025 /* SVNSettings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNSettings.mm; sourceTree = "<group>"; };
+		2908027016BD9CC600B54025 /* SVNSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNSettings.xib; sourceTree = "<group>"; };
+		290DDA5316B867F8002273D5 /* SVNEditor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNEditor.xib; sourceTree = "<group>"; };
+		290FF3E11602706000CD5AD2 /* Icons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icons.h; sourceTree = "<group>"; };
+		290FF3E21602706000CD5AD2 /* Icons.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Icons.mm; sourceTree = "<group>"; };
+		2917AA561611A0D2002303A1 /* SVNEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNEditor.h; sourceTree = "<group>"; };
+		2917AA571611A0D2002303A1 /* SVNEditor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNEditor.mm; sourceTree = "<group>"; };
+		2917AA581611A0D2002303A1 /* SVNEditorText.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNEditorText.xib; sourceTree = "<group>"; };
+		2918D4E216124F2500EF3AD9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		292090B616092518003E8078 /* SVNBlame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNBlame.h; sourceTree = "<group>"; };
+		292090B716092518003E8078 /* SVNBlame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNBlame.mm; sourceTree = "<group>"; };
+		292090B816092518003E8078 /* SVNBlame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNBlame.xib; sourceTree = "<group>"; };
+		2929107815E020EE000FE67D /* mod_authz_svn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mod_authz_svn.h; sourceTree = "<group>"; };
+		2929107915E020EE000FE67D /* mod_dav_svn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mod_dav_svn.h; sourceTree = "<group>"; };
+		2929107A15E020EE000FE67D /* svn_auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_auth.h; sourceTree = "<group>"; };
+		2929107B15E020EE000FE67D /* svn_base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_base64.h; sourceTree = "<group>"; };
+		2929107C15E020EE000FE67D /* svn_cache_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_cache_config.h; sourceTree = "<group>"; };
+		2929107D15E020EE000FE67D /* svn_checksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_checksum.h; sourceTree = "<group>"; };
+		2929107E15E020EE000FE67D /* svn_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_client.h; sourceTree = "<group>"; };
+		2929107F15E020EE000FE67D /* svn_cmdline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_cmdline.h; sourceTree = "<group>"; };
+		2929108015E020EE000FE67D /* svn_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_compat.h; sourceTree = "<group>"; };
+		2929108115E020EE000FE67D /* svn_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_config.h; sourceTree = "<group>"; };
+		2929108215E020EE000FE67D /* svn_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_ctype.h; sourceTree = "<group>"; };
+		2929108315E020EE000FE67D /* svn_dav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_dav.h; sourceTree = "<group>"; };
+		2929108415E020EE000FE67D /* svn_delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_delta.h; sourceTree = "<group>"; };
+		2929108515E020EE000FE67D /* svn_diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_diff.h; sourceTree = "<group>"; };
+		2929108615E020EE000FE67D /* svn_dirent_uri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_dirent_uri.h; sourceTree = "<group>"; };
+		2929108715E020EE000FE67D /* svn_dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_dso.h; sourceTree = "<group>"; };
+		2929108815E020EE000FE67D /* svn_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_error.h; sourceTree = "<group>"; };
+		2929108915E020EE000FE67D /* svn_error_codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_error_codes.h; sourceTree = "<group>"; };
+		2929108A15E020EE000FE67D /* svn_fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_fs.h; sourceTree = "<group>"; };
+		2929108B15E020EE000FE67D /* svn_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_hash.h; sourceTree = "<group>"; };
+		2929108C15E020EE000FE67D /* svn_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_io.h; sourceTree = "<group>"; };
+		2929108D15E020EE000FE67D /* svn_iter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_iter.h; sourceTree = "<group>"; };
+		2929108E15E020EE000FE67D /* svn_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_md5.h; sourceTree = "<group>"; };
+		2929108F15E020EE000FE67D /* svn_mergeinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_mergeinfo.h; sourceTree = "<group>"; };
+		2929109015E020EE000FE67D /* svn_nls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_nls.h; sourceTree = "<group>"; };
+		2929109115E020EE000FE67D /* svn_opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_opt.h; sourceTree = "<group>"; };
+		2929109215E020EE000FE67D /* svn_path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_path.h; sourceTree = "<group>"; };
+		2929109315E020EE000FE67D /* svn_pools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_pools.h; sourceTree = "<group>"; };
+		2929109415E020EE000FE67D /* svn_props.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_props.h; sourceTree = "<group>"; };
+		2929109515E020EE000FE67D /* svn_quoprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_quoprint.h; sourceTree = "<group>"; };
+		2929109615E020EE000FE67D /* svn_ra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_ra.h; sourceTree = "<group>"; };
+		2929109715E020EE000FE67D /* svn_ra_svn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_ra_svn.h; sourceTree = "<group>"; };
+		2929109815E020EE000FE67D /* svn_repos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_repos.h; sourceTree = "<group>"; };
+		2929109915E020EE000FE67D /* svn_sorts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_sorts.h; sourceTree = "<group>"; };
+		2929109A15E020EE000FE67D /* svn_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_string.h; sourceTree = "<group>"; };
+		2929109B15E020EE000FE67D /* svn_subst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_subst.h; sourceTree = "<group>"; };
+		2929109C15E020EE000FE67D /* svn_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_time.h; sourceTree = "<group>"; };
+		2929109D15E020EE000FE67D /* svn_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_types.h; sourceTree = "<group>"; };
+		2929109E15E020EE000FE67D /* svn_user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_user.h; sourceTree = "<group>"; };
+		2929109F15E020EE000FE67D /* svn_utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_utf.h; sourceTree = "<group>"; };
+		292910A015E020EE000FE67D /* svn_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_version.h; sourceTree = "<group>"; };
+		292910A115E020EE000FE67D /* svn_wc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_wc.h; sourceTree = "<group>"; };
+		292910A215E020EE000FE67D /* svn_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = svn_xml.h; sourceTree = "<group>"; };
+		292BAEDC15E0A85A0039B448 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		292CA36716157BAD00A66F6C /* SVNAuthorise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNAuthorise.h; sourceTree = "<group>"; };
+		292CA36816157BAD00A66F6C /* SVNAuthorise.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNAuthorise.mm; sourceTree = "<group>"; };
+		292CA36916157BAD00A66F6C /* SVNAuthorise.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNAuthorise.xib; sourceTree = "<group>"; };
+		292FBFC015E02C0700989D00 /* libapr-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libapr-1.dylib"; path = "../../../../opt/local/lib/libapr-1.dylib"; sourceTree = "<group>"; };
+		292FBFC315E02C2700989D00 /* libsvn_client-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_client-1.dylib"; path = "../../../../opt/local/lib/libsvn_client-1.dylib"; sourceTree = "<group>"; };
+		292FBFC515E0414900989D00 /* libsvn_wc-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_wc-1.dylib"; path = "../../../../opt/local/lib/libsvn_wc-1.dylib"; sourceTree = "<group>"; };
+		292FBFC715E0419E00989D00 /* libsvn_diff-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_diff-1.dylib"; path = "../../../../opt/local/lib/libsvn_diff-1.dylib"; sourceTree = "<group>"; };
+		292FBFD115E0419E00989D00 /* libsvn_wc-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_wc-1.dylib"; path = "../../../../opt/local/lib/libsvn_wc-1.dylib"; sourceTree = "<group>"; };
+		292FBFDF15E0427D00989D00 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = ../../../../opt/local/lib/libcrypto.dylib; sourceTree = "<group>"; };
+		292FBFE015E0427D00989D00 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = ../../../../opt/local/lib/libssl.dylib; sourceTree = "<group>"; };
+		292FBFE315E06B5E00989D00 /* libsvn_delta-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_delta-1.dylib"; path = "../../../../opt/local/lib/libsvn_delta-1.dylib"; sourceTree = "<group>"; };
+		292FBFE415E06B5E00989D00 /* libsvn_subr-1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsvn_subr-1.dylib"; path = "../../../../opt/local/lib/libsvn_subr-1.dylib"; sourceTree = "<group>"; };
+		2941C71916068EA100C32DFA /* date.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = date.cpp; sourceTree = "<group>"; };
+		2941C71A16068EA100C32DFA /* date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
+		2959C66216ADD87D000A163E /* SVNImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNImport.h; sourceTree = "<group>"; };
+		2959C66316ADD87D000A163E /* SVNImport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNImport.mm; sourceTree = "<group>"; };
+		2959C66416ADD87D000A163E /* SVNImport.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNImport.xib; sourceTree = "<group>"; };
+		2959C67316ADDA5A000A163E /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		2959C67516ADDADE000A163E /* ui.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ui.mm; sourceTree = "<group>"; };
+		295C40D816C2E54F00C32917 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		295CAA95160DB9F200E3E785 /* SVNBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNBrowse.h; sourceTree = "<group>"; };
+		295CAA96160DB9F200E3E785 /* SVNBrowse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNBrowse.mm; sourceTree = "<group>"; };
+		295CAA97160DB9F200E3E785 /* SVNBrowse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNBrowse.xib; sourceTree = "<group>"; };
+		295CAAA4160E54E300E3E785 /* APRwrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APRwrappers.h; sourceTree = "<group>"; };
+		2976B51815E9BA8300BD20E9 /* SVNSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNSelect.xib; sourceTree = "<group>"; };
+		2982488B15E0787500B9C72B /* SVNProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNProgress.xib; sourceTree = "<group>"; };
+		2982488E15E07ADB00B9C72B /* SVNProgress.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNProgress.mm; sourceTree = "<group>"; };
+		2982489015E07E7F00B9C72B /* SVNwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNwrapper.h; sourceTree = "<group>"; };
+		2982489115E07F0E00B9C72B /* SVNwrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNwrapper.mm; sourceTree = "<group>"; };
+		2982489315E08D8A00B9C72B /* SVNProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNProgress.h; sourceTree = "<group>"; };
+		29855C6415FD624300B474FB /* SVNLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNLog.h; sourceTree = "<group>"; };
+		29855C6615FD687700B474FB /* SVNProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNProperties.h; sourceTree = "<group>"; };
+		29855C7915FE73BB00B474FB /* Added.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Added.icns; sourceTree = "<group>"; };
+		29855C7A15FE73BB00B474FB /* Checkmark.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Checkmark.icns; sourceTree = "<group>"; };
+		29855C7B15FE73BB00B474FB /* Conflict.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Conflict.icns; sourceTree = "<group>"; };
+		29855C7C15FE73BB00B474FB /* Deleted.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Deleted.icns; sourceTree = "<group>"; };
+		29855C7D15FE73BB00B474FB /* Ignored.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Ignored.icns; sourceTree = "<group>"; };
+		29855C7E15FE73BB00B474FB /* Minus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Minus.icns; sourceTree = "<group>"; };
+		29855C7F15FE73BB00B474FB /* Modified.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Modified.icns; sourceTree = "<group>"; };
+		29855C8015FE73BB00B474FB /* Other.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Other.icns; sourceTree = "<group>"; };
+		2989119316B4982B00A513C0 /* SVNEditorImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNEditorImage.xib; sourceTree = "<group>"; };
+		29BEC14916B394F5002A07CC /* SVNCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNCommit.h; sourceTree = "<group>"; };
+		29BEC14A16B394F5002A07CC /* SVNCommit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNCommit.mm; sourceTree = "<group>"; };
+		29CE7AC315F82B1D005B2CB5 /* SVNProperties.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNProperties.mm; sourceTree = "<group>"; };
+		29CE7AC415F82B1D005B2CB5 /* SVNProperties.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNProperties.xib; sourceTree = "<group>"; };
+		29CE7ACE15F86DB9005B2CB5 /* SVNLog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNLog.mm; sourceTree = "<group>"; };
+		29CE7ACF15F86DBA005B2CB5 /* SVNLog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVNLog.xib; sourceTree = "<group>"; };
+		29DA7B1516113BF600517782 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = logo.icns; sourceTree = "<group>"; };
+		29DA7B2B1613CE3900517782 /* SyntaxColouring.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SyntaxColouring.mm; sourceTree = "<group>"; };
+		29DA7B2E1613CFB400517782 /* SyntaxColouring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxColouring.h; sourceTree = "<group>"; };
+		29F0DF1116B320ED00D37B3A /* SVNSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVNSelect.h; sourceTree = "<group>"; };
+		29F0DF1316B320FE00D37B3A /* SVNSelect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SVNSelect.mm; sourceTree = "<group>"; };
+		29FBFAAD1610257600929F5B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		737215A7049A927B00C919A3 /* Info-SVNService.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SVNService.plist"; sourceTree = "<group>"; };
+		737215A8049A927B00C919A3 /* SVNService.service */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVNService.service; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737215A2049A927B00C919A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292BAEDD15E0A85A0039B448 /* Quartz.framework in Frameworks */,
+				737215A3049A927B00C919A3 /* AppKit.framework in Frameworks */,
+				737215A4049A927B00C919A3 /* Foundation.framework in Frameworks */,
+				292FBFC115E02C0700989D00 /* libapr-1.dylib in Frameworks */,
+				292FBFC415E02C2700989D00 /* libsvn_client-1.dylib in Frameworks */,
+				292FBFC615E0414900989D00 /* libsvn_wc-1.dylib in Frameworks */,
+				292FBFD315E0419E00989D00 /* libsvn_diff-1.dylib in Frameworks */,
+				292FBFE115E0427D00989D00 /* libcrypto.dylib in Frameworks */,
+				292FBFE215E0427D00989D00 /* libssl.dylib in Frameworks */,
+				292FBFE515E06B5E00989D00 /* libsvn_delta-1.dylib in Frameworks */,
+				292FBFE615E06B5E00989D00 /* libsvn_subr-1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036354DFFEEE2D177F000001 /* SimpleService */ = {
+			isa = PBXGroup;
+			children = (
+				29CE7AC815F83006005B2CB5 /* ui */,
+				036354E6FEEE2D177F000001 /* Sources */,
+				036354F0FEEE2D177F000001 /* External Frameworks and Libraries */,
+				29855C7815FE73BB00B474FB /* BadgeIcons */,
+				036354E0FEEE2D177F000001 /* Products */,
+				737215A7049A927B00C919A3 /* Info-SVNService.plist */,
+				29DA7B1516113BF600517782 /* logo.icns */,
+				29FBFAAD1610257600929F5B /* icon.icns */,
+			);
+			name = SimpleService;
+			sourceTree = "<group>";
+		};
+		036354E0FEEE2D177F000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737215A8049A927B00C919A3 /* SVNService.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036354E6FEEE2D177F000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				036354E7FEEE2D177F000001 /* main.mm */,
+				295C40D816C2E54F00C32917 /* main.h */,
+				2982489115E07F0E00B9C72B /* SVNwrapper.mm */,
+				2982489015E07E7F00B9C72B /* SVNwrapper.h */,
+				295CAAA4160E54E300E3E785 /* APRwrappers.h */,
+				29DA7B2B1613CE3900517782 /* SyntaxColouring.mm */,
+				29DA7B2E1613CFB400517782 /* SyntaxColouring.h */,
+				290FF3E21602706000CD5AD2 /* Icons.mm */,
+				290FF3E11602706000CD5AD2 /* Icons.h */,
+				2941C71916068EA100C32DFA /* date.cpp */,
+				2941C71A16068EA100C32DFA /* date.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		036354F0FEEE2D177F000001 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2929107715E020EE000FE67D /* subversion-1 */,
+				292FBFE315E06B5E00989D00 /* libsvn_delta-1.dylib */,
+				292FBFE415E06B5E00989D00 /* libsvn_subr-1.dylib */,
+				292FBFDF15E0427D00989D00 /* libcrypto.dylib */,
+				292FBFE015E0427D00989D00 /* libssl.dylib */,
+				292FBFC015E02C0700989D00 /* libapr-1.dylib */,
+				292FBFC315E02C2700989D00 /* libsvn_client-1.dylib */,
+				292FBFC515E0414900989D00 /* libsvn_wc-1.dylib */,
+				292FBFC715E0419E00989D00 /* libsvn_diff-1.dylib */,
+				292FBFD115E0419E00989D00 /* libsvn_wc-1.dylib */,
+				292BAEDC15E0A85A0039B448 /* Quartz.framework */,
+				036354F1FEEE2D177F000001 /* AppKit.framework */,
+				036354F2FEEE2D177F000001 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		2908027416BD9CD100B54025 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				2908026E16BD9CC600B54025 /* SVNSettings.h */,
+				2908026F16BD9CC600B54025 /* SVNSettings.mm */,
+				2908027016BD9CC600B54025 /* SVNSettings.xib */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		2929107715E020EE000FE67D /* subversion-1 */ = {
+			isa = PBXGroup;
+			children = (
+				2929107815E020EE000FE67D /* mod_authz_svn.h */,
+				2929107915E020EE000FE67D /* mod_dav_svn.h */,
+				2929107A15E020EE000FE67D /* svn_auth.h */,
+				2929107B15E020EE000FE67D /* svn_base64.h */,
+				2929107C15E020EE000FE67D /* svn_cache_config.h */,
+				2929107D15E020EE000FE67D /* svn_checksum.h */,
+				2929107E15E020EE000FE67D /* svn_client.h */,
+				2929107F15E020EE000FE67D /* svn_cmdline.h */,
+				2929108015E020EE000FE67D /* svn_compat.h */,
+				2929108115E020EE000FE67D /* svn_config.h */,
+				2929108215E020EE000FE67D /* svn_ctype.h */,
+				2929108315E020EE000FE67D /* svn_dav.h */,
+				2929108415E020EE000FE67D /* svn_delta.h */,
+				2929108515E020EE000FE67D /* svn_diff.h */,
+				2929108615E020EE000FE67D /* svn_dirent_uri.h */,
+				2929108715E020EE000FE67D /* svn_dso.h */,
+				2929108815E020EE000FE67D /* svn_error.h */,
+				2929108915E020EE000FE67D /* svn_error_codes.h */,
+				2929108A15E020EE000FE67D /* svn_fs.h */,
+				2929108B15E020EE000FE67D /* svn_hash.h */,
+				2929108C15E020EE000FE67D /* svn_io.h */,
+				2929108D15E020EE000FE67D /* svn_iter.h */,
+				2929108E15E020EE000FE67D /* svn_md5.h */,
+				2929108F15E020EE000FE67D /* svn_mergeinfo.h */,
+				2929109015E020EE000FE67D /* svn_nls.h */,
+				2929109115E020EE000FE67D /* svn_opt.h */,
+				2929109215E020EE000FE67D /* svn_path.h */,
+				2929109315E020EE000FE67D /* svn_pools.h */,
+				2929109415E020EE000FE67D /* svn_props.h */,
+				2929109515E020EE000FE67D /* svn_quoprint.h */,
+				2929109615E020EE000FE67D /* svn_ra.h */,
+				2929109715E020EE000FE67D /* svn_ra_svn.h */,
+				2929109815E020EE000FE67D /* svn_repos.h */,
+				2929109915E020EE000FE67D /* svn_sorts.h */,
+				2929109A15E020EE000FE67D /* svn_string.h */,
+				2929109B15E020EE000FE67D /* svn_subst.h */,
+				2929109C15E020EE000FE67D /* svn_time.h */,
+				2929109D15E020EE000FE67D /* svn_types.h */,
+				2929109E15E020EE000FE67D /* svn_user.h */,
+				2929109F15E020EE000FE67D /* svn_utf.h */,
+				292910A015E020EE000FE67D /* svn_version.h */,
+				292910A115E020EE000FE67D /* svn_wc.h */,
+				292910A215E020EE000FE67D /* svn_xml.h */,
+			);
+			name = "subversion-1";
+			path = "/opt/local/include/subversion-1";
+			sourceTree = "<absolute>";
+		};
+		2959C66916ADD8C3000A163E /* import */ = {
+			isa = PBXGroup;
+			children = (
+				2959C66216ADD87D000A163E /* SVNImport.h */,
+				2959C66316ADD87D000A163E /* SVNImport.mm */,
+				2959C66416ADD87D000A163E /* SVNImport.xib */,
+			);
+			name = import;
+			sourceTree = "<group>";
+		};
+		2959C66A16ADD8F3000A163E /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				2982489315E08D8A00B9C72B /* SVNProgress.h */,
+				2982488E15E07ADB00B9C72B /* SVNProgress.mm */,
+				2982488B15E0787500B9C72B /* SVNProgress.xib */,
+			);
+			name = progress;
+			sourceTree = "<group>";
+		};
+		2959C66B16ADD905000A163E /* log */ = {
+			isa = PBXGroup;
+			children = (
+				29855C6415FD624300B474FB /* SVNLog.h */,
+				29CE7ACE15F86DB9005B2CB5 /* SVNLog.mm */,
+				29CE7ACF15F86DBA005B2CB5 /* SVNLog.xib */,
+			);
+			name = log;
+			sourceTree = "<group>";
+		};
+		2959C66C16ADD91A000A163E /* properties */ = {
+			isa = PBXGroup;
+			children = (
+				29855C6615FD687700B474FB /* SVNProperties.h */,
+				29CE7AC315F82B1D005B2CB5 /* SVNProperties.mm */,
+				29CE7AC415F82B1D005B2CB5 /* SVNProperties.xib */,
+			);
+			name = properties;
+			sourceTree = "<group>";
+		};
+		2959C66F16ADD945000A163E /* blame */ = {
+			isa = PBXGroup;
+			children = (
+				292090B616092518003E8078 /* SVNBlame.h */,
+				292090B716092518003E8078 /* SVNBlame.mm */,
+				292090B816092518003E8078 /* SVNBlame.xib */,
+			);
+			name = blame;
+			sourceTree = "<group>";
+		};
+		2959C67016ADD952000A163E /* browse */ = {
+			isa = PBXGroup;
+			children = (
+				295CAA95160DB9F200E3E785 /* SVNBrowse.h */,
+				295CAA96160DB9F200E3E785 /* SVNBrowse.mm */,
+				295CAA97160DB9F200E3E785 /* SVNBrowse.xib */,
+			);
+			name = browse;
+			sourceTree = "<group>";
+		};
+		2959C67116ADD961000A163E /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				2917AA561611A0D2002303A1 /* SVNEditor.h */,
+				2917AA571611A0D2002303A1 /* SVNEditor.mm */,
+				290DDA5316B867F8002273D5 /* SVNEditor.xib */,
+				2917AA581611A0D2002303A1 /* SVNEditorText.xib */,
+				2989119316B4982B00A513C0 /* SVNEditorImage.xib */,
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		2959C67216ADD973000A163E /* authorise */ = {
+			isa = PBXGroup;
+			children = (
+				292CA36716157BAD00A66F6C /* SVNAuthorise.h */,
+				292CA36816157BAD00A66F6C /* SVNAuthorise.mm */,
+				292CA36916157BAD00A66F6C /* SVNAuthorise.xib */,
+			);
+			name = authorise;
+			sourceTree = "<group>";
+		};
+		29855C7815FE73BB00B474FB /* BadgeIcons */ = {
+			isa = PBXGroup;
+			children = (
+				29855C7915FE73BB00B474FB /* Added.icns */,
+				29855C7A15FE73BB00B474FB /* Checkmark.icns */,
+				29855C7B15FE73BB00B474FB /* Conflict.icns */,
+				29855C7C15FE73BB00B474FB /* Deleted.icns */,
+				29855C7D15FE73BB00B474FB /* Ignored.icns */,
+				29855C7E15FE73BB00B474FB /* Minus.icns */,
+				29855C7F15FE73BB00B474FB /* Modified.icns */,
+				29855C8015FE73BB00B474FB /* Other.icns */,
+			);
+			path = BadgeIcons;
+			sourceTree = "<group>";
+		};
+		29CE7AC815F83006005B2CB5 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2959C67316ADDA5A000A163E /* ui.h */,
+				2959C67516ADDADE000A163E /* ui.mm */,
+				2918D4E216124F2500EF3AD9 /* MainMenu.xib */,
+				2908027416BD9CD100B54025 /* settings */,
+				2959C66C16ADD91A000A163E /* properties */,
+				2959C66A16ADD8F3000A163E /* progress */,
+				29F0DF1016B320BF00D37B3A /* select */,
+				2959C66916ADD8C3000A163E /* import */,
+				2959C66B16ADD905000A163E /* log */,
+				2959C66F16ADD945000A163E /* blame */,
+				2959C67016ADD952000A163E /* browse */,
+				2959C67116ADD961000A163E /* editor */,
+				2959C67216ADD973000A163E /* authorise */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		29F0DF1016B320BF00D37B3A /* select */ = {
+			isa = PBXGroup;
+			children = (
+				29F0DF1116B320ED00D37B3A /* SVNSelect.h */,
+				29F0DF1316B320FE00D37B3A /* SVNSelect.mm */,
+				2976B51815E9BA8300BD20E9 /* SVNSelect.xib */,
+				29BEC14916B394F5002A07CC /* SVNCommit.h */,
+				29BEC14A16B394F5002A07CC /* SVNCommit.mm */,
+			);
+			name = select;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7372159B049A927B00C919A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290FF3E31602706000CD5AD2 /* Icons.h in Headers */,
+				2941C71C16068EA100C32DFA /* date.h in Headers */,
+				292090B916092518003E8078 /* SVNBlame.h in Headers */,
+				295CAA98160DB9F200E3E785 /* SVNBrowse.h in Headers */,
+				2917AA591611A0D2002303A1 /* SVNEditor.h in Headers */,
+				292CA36A16157BAD00A66F6C /* SVNAuthorise.h in Headers */,
+				2959C66516ADD87D000A163E /* SVNImport.h in Headers */,
+				29F0DF1216B320ED00D37B3A /* SVNSelect.h in Headers */,
+				29BEC14B16B394F5002A07CC /* SVNCommit.h in Headers */,
+				2908027116BD9CC600B54025 /* SVNSettings.h in Headers */,
+				295C40D916C2E54F00C32917 /* main.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7372159A049A927B00C919A3 /* SVNService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69BDED708A2ECB4008AC9B5 /* Build configuration list for PBXNativeTarget "SVNService" */;
+			buildPhases = (
+				7372159B049A927B00C919A3 /* Headers */,
+				7372159E049A927B00C919A3 /* Resources */,
+				7372159F049A927B00C919A3 /* Sources */,
+				737215A2049A927B00C919A3 /* Frameworks */,
+				737215A5049A927B00C919A3 /* Rez */,
+				29AE175115F939F300A4A48A /* Scan for Services */,
+				29DA7B3F161541DF00517782 /* Make Icons */,
+			);
+			buildRules = (
+				29DA7B3D161541C400517782 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SVNService;
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Services";
+			productName = SimpleService;
+			productReference = 737215A8049A927B00C919A3 /* SVNService.service */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036354DEFEEE2D177F000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = B69BDEDB08A2ECB4008AC9B5 /* Build configuration list for PBXProject "SVNService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 036354DFFEEE2D177F000001 /* SimpleService */;
+			productRefGroup = 036354E0FEEE2D177F000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7372159A049A927B00C919A3 /* SVNService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7372159E049A927B00C919A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2982488C15E0787500B9C72B /* SVNProgress.xib in Resources */,
+				2976B51915E9BA8300BD20E9 /* SVNSelect.xib in Resources */,
+				29CE7AC715F82B1D005B2CB5 /* SVNProperties.xib in Resources */,
+				29CE7AD215F86DBA005B2CB5 /* SVNLog.xib in Resources */,
+				292090BB16092518003E8078 /* SVNBlame.xib in Resources */,
+				295CAA9A160DB9F200E3E785 /* SVNBrowse.xib in Resources */,
+				2917AA5B1611A0D2002303A1 /* SVNEditorText.xib in Resources */,
+				2918D4E316124F2500EF3AD9 /* MainMenu.xib in Resources */,
+				292CA36C16157BAD00A66F6C /* SVNAuthorise.xib in Resources */,
+				2959C66716ADD87D000A163E /* SVNImport.xib in Resources */,
+				2989119416B4982B00A513C0 /* SVNEditorImage.xib in Resources */,
+				290DDA5416B867F8002273D5 /* SVNEditor.xib in Resources */,
+				2908027316BD9CC600B54025 /* SVNSettings.xib in Resources */,
+				29FBFAAE1610257700929F5B /* icon.icns in Resources */,
+				29DA7B1616113BF600517782 /* logo.icns in Resources */,
+				29855C8115FE73BC00B474FB /* Added.icns in Resources */,
+				29855C8215FE73BC00B474FB /* Checkmark.icns in Resources */,
+				29855C8315FE73BC00B474FB /* Conflict.icns in Resources */,
+				29855C8415FE73BC00B474FB /* Deleted.icns in Resources */,
+				29855C8515FE73BC00B474FB /* Ignored.icns in Resources */,
+				29855C8615FE73BC00B474FB /* Minus.icns in Resources */,
+				29855C8715FE73BC00B474FB /* Modified.icns in Resources */,
+				29855C8815FE73BC00B474FB /* Other.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		737215A5049A927B00C919A3 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29AE175115F939F300A4A48A /* Scan for Services */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Scan for Services";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = /System/Library/CoreServices/pbs;
+			showEnvVarsInLog = 0;
+		};
+		29DA7B3F161541DF00517782 /* Make Icons */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/icon.psd",
+				"$(SRCROOT)/logo.psd",
+			);
+			name = "Make Icons";
+			outputPaths = (
+				"$(SRCROOT)/icon.icns",
+				"$(SRCROOT)/logo.icns",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "isocmd \"sizes={int[]{16 32 128 256 512}}\" ${SRCROOT}/icon.psd ${SRCROOT}/icon.icns\nisocmd \"sizes={int[]{16 32 128 256 512}}\" ${SRCROOT}/logo.psd ${SRCROOT}/logo.icns";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7372159F049A927B00C919A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737215A1049A927B00C919A3 /* main.mm in Sources */,
+				290FF3E41602706000CD5AD2 /* Icons.mm in Sources */,
+				2959C67616ADDADE000A163E /* ui.mm in Sources */,
+				2941C71B16068EA100C32DFA /* date.cpp in Sources */,
+				29DA7B2C1613CE3900517782 /* SyntaxColouring.mm in Sources */,
+				2982488F15E07ADB00B9C72B /* SVNProgress.mm in Sources */,
+				2982489215E07F0E00B9C72B /* SVNwrapper.mm in Sources */,
+				29CE7AC615F82B1D005B2CB5 /* SVNProperties.mm in Sources */,
+				29F0DF1516B322F900D37B3A /* SVNSelect.mm in Sources */,
+				29CE7AD115F86DBA005B2CB5 /* SVNLog.mm in Sources */,
+				292090BA16092518003E8078 /* SVNBlame.mm in Sources */,
+				295CAA99160DB9F200E3E785 /* SVNBrowse.mm in Sources */,
+				2917AA5A1611A0D2002303A1 /* SVNEditor.mm in Sources */,
+				292CA36B16157BAD00A66F6C /* SVNAuthorise.mm in Sources */,
+				2959C66616ADD87D000A163E /* SVNImport.mm in Sources */,
+				29BEC14C16B394F5002A07CC /* SVNCommit.mm in Sources */,
+				2908027216BD9CC600B54025 /* SVNSettings.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B69BDED808A2ECB4008AC9B5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/subversion-1",
+					"/opt/local/include/apr-1",
+					/opt/local/include/neon,
+				);
+				INFOPLIST_FILE = "Info-SVNService.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SVNService;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = service;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		B69BDED908A2ECB4008AC9B5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/subversion-1",
+					"/opt/local/include/apr-1",
+					/opt/local/include/neon,
+				);
+				INFOPLIST_FILE = "Info-SVNService.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SVNService;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = service;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B69BDEDA08A2ECB4008AC9B5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/subversion-1",
+					"/opt/local/include/apr-1",
+					/opt/local/include/neon,
+				);
+				INFOPLIST_FILE = "Info-SVNService.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SVNService;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Default;
+		};
+		B69BDEDC08A2ECB4008AC9B5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		B69BDEDD08A2ECB4008AC9B5 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		B69BDEDE08A2ECB4008AC9B5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B69BDED708A2ECB4008AC9B5 /* Build configuration list for PBXNativeTarget "SVNService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69BDED808A2ECB4008AC9B5 /* Development */,
+				B69BDED908A2ECB4008AC9B5 /* Deployment */,
+				B69BDEDA08A2ECB4008AC9B5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B69BDEDB08A2ECB4008AC9B5 /* Build configuration list for PBXProject "SVNService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69BDEDC08A2ECB4008AC9B5 /* Development */,
+				B69BDEDD08A2ECB4008AC9B5 /* Deployment */,
+				B69BDEDE08A2ECB4008AC9B5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036354DEFEEE2D177F000001 /* Project object */;
+}
